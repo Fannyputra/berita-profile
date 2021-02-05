@@ -49,6 +49,12 @@ You must sign your work, certifying that you either wrote the work or otherwise 
 
 or simply
 
+
+
+
+
+
+nscsdcskdcks
 `git commit -s`
 
 This will sign your commits with the information setup in your git config, e.g.
