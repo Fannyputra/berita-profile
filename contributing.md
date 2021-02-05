@@ -13,6 +13,7 @@ Reporting issues is helpful but an even better approach is to send a Pull Reques
 
 ## Guidelines
 
+cobain dong
 Before we look into how, here are the guidelines. If your Pull Requests fail
 to pass these guidelines it will be declined and you will need to re-submit
 when you’ve made the changes. This might sound a bit tough, but it is required
