@@ -78,7 +78,7 @@ function novapage_item_text_icon(
                     name="<?php echo $param_name; ?>[item][<?php echo $i;?>][deskripsi]"
                     ><?php echo $value_item['deskripsi'];?></textarea> 
             </div>  
-            <div class="form-group item-icon">
+            <!-- <div class="form-group item-icon">
                 <div class="icon-container btn-icon">
                     <?php if(!empty($value_item['icon'])){ ?>
                         <i class="<?php echo $value_item['icon'];?>"></i>
@@ -93,7 +93,23 @@ function novapage_item_text_icon(
                     value="<?php echo $value_item['icon'];?>"
                     type="hidden" class="item-icon-text">
                 <a class="btn-icon-clear" href="#">Hapus Icon</a>
-            </div>   
+            </div> -->
+            <div class="form-group item-image">
+                <div class="image-container btn-image">
+                    <?php if(!empty($value_item['icon'])){ ?>
+                        <img src="<?php echo base_url('asset/img_novapage/images/'.$value_item['icon']);?>" /> 
+                    <?php } else { ?>
+                        <label>Pilih Gambar</label>
+                    <?php } ?>
+                </div>
+                <input  
+                    data-name="gambar" 
+                    data-item="Y" 
+                    name="<?php echo $param_name; ?>[item][<?php echo $i;?>][icon]"
+                    value="<?php echo $value_item['icon'];?>"
+                    type="hidden" class="item-image-text">
+                <a class="btn-image-clear" href="#">Hapus Gambar</a>
+            </div>      
             <div class="form-group">                              
                 <label>Link Ke Halaman</label>
                 <select 

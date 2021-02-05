@@ -54,7 +54,7 @@
                         $img_file= $fpath .'asset/img_novapage/images/'.$image['file']; 
                         if(file_exists($img_file) && !empty($image['file'])) {
                             ?>
-                            <img src="<?php echo base_url()."asset/img_novapage/images/".$image['file'];?>" style="width:100%">
+                            <img src="<?php echo base_url()."asset/img_novapage/images/".$image['file'];?>" style="width:50%">
                             <?php
                         } else {
                             ?>

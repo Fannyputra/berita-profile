@@ -1,7 +1,5 @@
 <?php
-
 function novapage_control_widget($index,$type,$value_widget,$param_name ='setting_sidebar'){
-
     switch ($type) {
         case 'widget_berita_kategori':
             ?>
