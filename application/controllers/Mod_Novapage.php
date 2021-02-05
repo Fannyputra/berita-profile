@@ -37,7 +37,7 @@ class Mod_Novapage extends CI_Controller {
 
             $this->set_config_section('section_about');
 
-        } elseif(isset($_POST['set_config_seputar_services'])){
+        } elseif(isset($_POST['set_config_services'])){
 
             $this->set_config_section('section_services');
 
@@ -140,7 +140,7 @@ class Mod_Novapage extends CI_Controller {
             'section_hero' => 'Section Hero',
             'section_feature' => 'Section Key Feature',
             'section_portfolio' => 'Section Portfolio',
-            'section_services' => 'Section Seputar gerindra',
+            'section_services' => 'Section Services',
             'section_team' => 'Section Team',
             'section_testimonial' => 'Section Testimonial' 
         ); 
