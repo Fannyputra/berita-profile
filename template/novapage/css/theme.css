@@ -131,7 +131,7 @@
 .card,
 .card .card-header {
   background: none;
-  border-radius: 0;
+  border-radius: 20px;
   border: 0;
 }
 
@@ -2514,7 +2514,7 @@ a.btn.btn-logout-outline:hover{
   background: #000000bd !important;
   color: #fff;
   transition: all 0.35s ease-in-out;
-  opacity: 0;
+  opacity: 0.5;
   left: 0;
   right: 0;
   top: auto;
