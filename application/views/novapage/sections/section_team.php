@@ -43,7 +43,7 @@ if (!empty($section_berita['kategori'])) {
                 WHERE
                     b.status = 'Y' AND
                     b.id_kategori = '5' " .
-            "ORDER BY tanggal DESC LIMIT 0," . 5)->result_array();
+            "ORDER BY tanggal DESC LIMIT 0," . 8)->result_array();
     }?>
     >
 
@@ -87,7 +87,7 @@ if (!empty($section_berita['kategori'])) {
                                 <section class="col-lg-12">
                                     <div class="row">
                                         <?php foreach ($get_kutipan as $berita) { ?>
-                                            <div class="col-lg-4 mb-3">
+                                            <div class="col-lg-3 mb-2">
                                                 <?php
                                                 $img_src = base_url() . 'asset/foto_berita/small_no-image.jpg';
                                                 if ($berita['gambar'] !== '') {
@@ -101,10 +101,10 @@ if (!empty($section_berita['kategori'])) {
                                                                 height:200px;"></div>
                                                 <!-- <img width="100%" src="<?= base_url() . 'asset/foto_berita/berita1.jpg' ?>" alt=""> -->
                                                 <div class=" news-content">
-                                                    <h8 class="news-title">
+                                                    <strong class="news-title">
                                                         <?php echo strip_tags(word_limiter($berita['judul'], 5)); ?>
-                                                    </h8>
-                                                    <?php echo strip_tags(word_limiter($berita['isi_berita'], 20)); ?>
+                                                    </strong>
+                                                    <small><?php echo strip_tags(word_limiter($berita['isi_berita'], 25)); ?></small>
                                                 </div>
                                                 <div class="news-meta ml-2">
                                                     <i class="fa fa-calendar"></i> <?php echo tgl_indo($berita['tanggal']); ?> ,

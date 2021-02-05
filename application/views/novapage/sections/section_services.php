@@ -43,7 +43,7 @@ if (isset($get_section_services['value'])) {
                                             ?>
                                             <div class="post-img-container" style="background:url('<?php echo $img_src; ?>');
                                                 background-position:center;
-                                                background-size:50px;
+                                                background-size:70px;
                                                 background-repeat:no-repeat;
                                                 height:100px;"></div>
                                         </h1>
@@ -55,7 +55,7 @@ if (isset($get_section_services['value'])) {
                                         ?>
                                         <div class="card-body text-center icon-body">
                                             <a href="<?php echo $url_link; ?>">
-                                                <h5 class="icon-title"><?php echo $item['judul']; ?></h5>
+                                                <small class="icon-title" style="color: #FFA500;"><?php echo $item['judul']; ?></small>
                                             </a>
                                         </div>
                                     </div>

@@ -143,7 +143,7 @@ class Mod_Novapage_Images extends CI_Controller {
 
         $new_name = time().$_FILES["userfiles"]['name'];
         $config['file_name'] = $new_name;
-		$config['upload_path'] = 'asset/images/';
+		$config['upload_path'] = 'asset/img_novapage/images/';
         $config['allowed_types'] = 'gif|jpg|png|jpeg|JPG|JPEG|PNG|GIF';
         // $config['max_size'] = '500'; // kb
         $this->load->library('upload', $config);

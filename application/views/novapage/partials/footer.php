@@ -67,7 +67,7 @@ $base_path = FCPATH;
 	<div id="footer-bottom" class="py-4">
 		<div class="container">  
 			<div class="row">
-				<div class="col-12 col-lg-6 col-pt-10 text-lg-left text-center">
+				<div class="text-lg-left text-center">
 					<div class="d-inline-block d-lg-inline">
 						&copy; 2020 Copyright <b><?php echo $id_website['nama_website']; ?></b> 
 						<!-- <?php echo date('Y');?> -->
@@ -84,7 +84,7 @@ $base_path = FCPATH;
 						All Rights reserved
 					</div>
 				</div>
-				<div class="col-8 col-lg-6 text-center text-lg-right">  
+				<div class=" text-center text-lg-right">  
 					<?php 
 						echo build_footer_menu($menu_footer_id);
 					?> 

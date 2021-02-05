@@ -31,7 +31,7 @@ function get_footer_widget($get_setting_footer) {
 ?>
 
 <div class="row">
-	<div class="col-md-6 col-lg-3">
+	<div class="col-md-6 col-lg-4">
 		<?php  
 			$footer_1 = get_footer_widget($get_setting_footer_1);
 			foreach($footer_1 as $i => $item) {
@@ -44,7 +44,7 @@ function get_footer_widget($get_setting_footer) {
 			}
 		?>
 	</div>
-	<div class="col-md-6 col-lg-3">
+	<!-- <div class="col-md-6 col-lg-3">
 		<?php  
 			$footer_2 = get_footer_widget($get_setting_footer_2);
 			foreach($footer_2 as $i => $item) {
@@ -56,8 +56,8 @@ function get_footer_widget($get_setting_footer) {
 				}
 			}
 		?>
-	</div>
-	<div class="col-md-6 col-lg-3">
+	</div> -->
+	<div class="col-md-6 col-lg-4">
 		<?php  
 			$footer_3 = get_footer_widget($get_setting_footer_3);
 			foreach($footer_3 as $i => $item) {
@@ -70,7 +70,7 @@ function get_footer_widget($get_setting_footer) {
 			}
 		?>
 	</div>
-	<div class="col-md-6 col-lg-3">
+	<div class="col-md-6 col-lg-4">
 		<?php  
 			$footer_4 = get_footer_widget($get_setting_footer_4);
 			foreach($footer_4 as $i => $item) {

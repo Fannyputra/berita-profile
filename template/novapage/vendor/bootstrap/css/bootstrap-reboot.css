@@ -22,15 +22,25 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+@font-face {
+	font-family: 'entypo';
+	src: url('../fonticons/entypo.svg#entypo') format('svg');
+	src: url('../fonticons/entypod41d.eot?#iefix') format('embedded-opentype'),
+		url('../fonticons/entypo.svg#entypo') format('svg'),
+		url('../fonticons/entypo.woff') format('woff'),
+		url('../fonticons/entypo.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #363635;
+	background: url(../bg.jpg) white top center no-repeat fixed;
+	line-height: 140%;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {

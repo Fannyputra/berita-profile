@@ -53,7 +53,7 @@ if( $this->uri->segment(1) !=='main' && !empty($this->uri->segment(1))) {
       
 	<?php include "partials/head.php"; ?>
 </head>
-<body class="responsive-menu-hide">
+<body class="responsive-menu-hide" >
 <div class="header">
 	<?php  include "partials/header.php"; 	 ?>
 </div> 	

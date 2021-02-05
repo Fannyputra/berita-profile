@@ -97,14 +97,14 @@ if(  $CI->uri->segment(1)=='main' OR $CI->uri->segment(1)=='') {
 	$class_menu_landingpage = 'landingpage';
 } 
 ?> 
-<nav class="main-menu-container navbar navbar-dark fixed-top  py-2 py-lg-3 <?php echo $class_menu_landingpage;?>" >
+<nav class="main-menu-container navbar navbar-dark fixed-top  py-4 py-lg-3 <?php echo $class_menu_landingpage;?>" >
 	<div class="button-toggle-container d-lg-none m-2 position-absolute">
 		<button class="btn-responsive navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu"
 			aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button> 
 	</div>
-	<div class="container ml-5 pl-4 ml-lg-auto pl-lg-auto">
+	<div class="container ml-2 pl-5 ml-lg-auto pl-lg-auto">
 		<?php
 			//menampilkan identias website  
 			$base_path = FCPATH;
@@ -130,7 +130,7 @@ if(  $CI->uri->segment(1)=='main' OR $CI->uri->segment(1)=='') {
 			if( isset($tagline['header']) && isset($tagline['text'])) {
 				if(!empty($tagline['text'] && $tagline['header'] ==  '1') ){
 					?>
-					<!-- <div class="tagline-header"><?php echo $tagline['text'];?></div> -->
+					<div class="tagline-header"><?php echo $tagline['text'];?></div>
 					<?php
 				}
 			}?> 
