@@ -1,0 +1,347 @@
+/*-------------------------------------------------------------------------------------
+   * Form
+   *-----------------------------------------------------------------------------------*/
+   .btn {
+     color: #fff !important;
+   }
+  .btn-submit,
+  .form .btn-submit {
+    color: #fff;
+    background-color: #990101;
+    border-color: #990101 ;
+  }
+ .btn-submit:hover,
+  .form .btn-submit:hover {
+    color: #fff;  
+    background: #93101c;
+  }
+  
+  
+  /*-----------------------------------------------------------------------------------
+   * video list 
+   *-----------------------------------------------------------------------------------*/  
+  
+  .video-list.card .card-body  a:hover {
+    color: #990101;
+  }
+    
+  
+  /*-----------------------------------------------------------------------------------
+   * Video  Detail
+   *-----------------------------------------------------------------------------------*/ 
+   
+  .video-detail.card .image-container a {
+    color:#fff;
+  }
+  
+  .video-detail.card .card-body  a:hover {
+    color: #990101;
+  } 
+
+  /*-----------------------------------------------------------------------------------
+   * Related video 
+   *-----------------------------------------------------------------------------------*/ 
+   
+  .related-video.card .card-body > ul li a:hover { 
+    color: #990101 ;
+    background-color: rgba(0,0,0,.03);  
+  }
+  
+  
+  /*-----------------------------------------------------------------------------------
+   * agenda 
+   *-----------------------------------------------------------------------------------*/ 
+  .agenda.card .card-body  a:hover {
+    color: #990101;
+  }
+    
+  
+  /*-----------------------------------------------------------------------------------
+   * Grid Card 
+   *-----------------------------------------------------------------------------------*/ 
+  
+  .grid.card .card-body  a:hover {
+    color: #990101;
+  }
+     
+  
+  /*-----------------------------------------------------------------------------------
+   * Blog 
+   *-----------------------------------------------------------------------------------*/ 
+
+  .blog.card .card-body  a:hover {
+    color: #990101;
+  } 
+   
+  
+  /*-----------------------------------------------------------------------------------
+   * Blog Detail
+   *-----------------------------------------------------------------------------------*/ 
+  
+  .blog-detail.card .card-body  a:hover {
+    color: #990101;
+  }
+       
+  .blog-detail.card  .post-meta {
+    color: grey;
+  }
+   
+   
+  /*-----------------------------------------------------------------------------------
+   * row Blog 
+   *-----------------------------------------------------------------------------------*/ 
+  .row-blog.card .card-body  a:hover {
+    color: #990101;
+  }
+   
+  /*-----------------------------------------------------------------------------------
+   * Blog list
+   *-----------------------------------------------------------------------------------*/ 
+
+  .blog-list.card .card-body  a:hover {
+    color: #990101;
+  } 
+  /*------------------------------------------------------------------------------------------
+   * Polling
+   *------------------------------------------------------------------------------------------*/
+  .polling label.bar { 
+    background-color: #990101;
+    color: #fff;
+  }
+  
+  /*------------------------------------------------------------------------------------------
+   * Sidebar 
+   *------------------------------------------------------------------------------------------*/
+    
+   .sidebar .widget.card > ul li a:hover,
+   .sidebar .widget.card .card-body > ul li a:hover{ 
+     color: #990101; 
+   }
+    
+   .sidebar .widget.widget-tagcloud .tagcloud a:hover{
+     color: #990101 !important; 
+   }
+   
+    
+    
+   .sidebar .widget.widget-comments ul li a:hover {
+     color: #990101; 
+   }
+     
+   .sidebar .widget.widget-social .social-bar a.social-icon { 
+     border: 1px solid #990101;
+     color: #990101; 
+   } 
+    
+   .sidebar .widget.widget-social .social-bar a.social-icon:hover  {
+     background: #990101; 
+   }
+    
+   
+   .sidebar .widget.posts-widget li.list-post a:hover {
+     color: #990101; 
+   }
+    
+   .sidebar .widget.widget-contact .contact .data label {
+     color: #990101;
+   } 
+  
+   
+  
+  /*------------------------------------------------------------------------------------------------
+   * global readmore
+   *------------------------------------------------------------------------------------------------- */  
+ 
+ a.read-more:hover {
+  color:#990101
+ }
+  
+  
+ 
+/*-----------------------------------------------------------------------------------------------
+* section
+*-----------------------------------------------------------------------------------------------*/  
+.section .card-body .body-container a:hover{
+ color: #990101; 
+}
+
+.section .card-body .body-container.animate:hover{ 
+ border-bottom: 5px solid #990101;
+}
+  
+
+#section_cta.section {
+ background-color: #990101;
+ color: #fff;  
+}  
+
+
+.section #carouselTestimonial ol.carousel-indicators li{ 
+ background-color: #990101;
+}
+
+
+#back-to-top { 
+ background: #990101;
+ color: #fff; 
+}
+
+
+#footer ul.footer-menu li a:hover{
+ color: #990101;
+} 
+
+#footer .social-bar a.social-icon { 
+ border: 1px solid #990101;
+ color: #990101;
+} 
+
+#footer .social-bar a.social-icon:hover  {
+ background: #990101;
+ color: #fff;
+}
+
+.btn-theme { 
+ color: #fff;
+ background-color: #990101;
+ border-color: #990101;
+}
+.btn-theme:hover {  
+ background: #93101c;
+ border-color: #93101c;
+ color: #fff;
+} 
+
+.btn-theme-outline { 
+  color: #990101 !important;
+  border-color: #990101;
+ }
+ 
+ .btn-theme-outline:hover {  
+  color: #fff !important;
+  background: #990101;
+  border-color: #990101;
+ }
+   
+/*-----------------------------------------------------------------------------------------------
+* pagination
+*-----------------------------------------------------------------------------------------------*/  
+.pagination a {     
+  border: 1px solid #990101;
+  color: #990101; 
+}
+
+.pagination span.current { 
+  background: #990101; 
+}
+
+.pagination a:hover { 
+  background: #990101;
+} 
+
+  
+/*-----------------------------------------------------------------------------------------------
+* social share
+*-----------------------------------------------------------------------------------------------*/  
+.social-share a{
+  color: #990101;
+}
+
+.social-share a:hover{
+  color: #93101c;
+}
+
+/*-----------------------------------------------------------------------------------------------
+ * comment form
+*-----------------------------------------------------------------------------------------------*/  
+
+.comment-respond .comment-form .btn-comment { 
+  background-color: #990101;
+  border-color: #990101;
+}
+
+.comment-respond .comment-form .btn-comment:hover { 
+background: #93101c;
+}
+
+h3.comments a.comment-write:hover {
+  color: #990101;
+} 
+
+ol.commentlist li a:hover { 
+  color: #990101;
+} 
+
+.navigation a:hover  { 
+  color: #990101; 
+  border-bottom: 1px solid #990101;
+} 
+
+/*--------------------------------------------------------------------------------------------------
+ * Menu responsive
+ *------------------------------------------------------------------------------------------------*/
+ .responsive-menu{ 
+  background: #990101; 
+}
+    
+
+.responsive-menu .menu-content .sidemenu {
+  background: #990101; 
+} 
+
+.responsive-menu .menu-top a {
+  color: #990101;
+  background: #dc35463d;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------
+ * team
+ *------------------------------------------------------------------------------------------------*/
+ .team-socmed a {
+  border: 1px solid #990101;
+  color: #990101 !important;
+} 
+
+.team-socmed a:hover  {
+  background: #990101;
+}
+
+
+.section-about .item-about .description li::before{
+  color: #990101; 
+}
+ 
+.section .section-container .section-title::after {
+  background: #990101;
+}
+
+.section .section-container .icon-body a:hover{
+  color: #990101;
+} 
+
+.section .section-container .grid-slide-up:hover .icon-body .button-link a { 
+  color: #ffffff;
+  border:0; 
+  background: #990101;
+}
+
+.section .section-container .grid-slide-up:hover .icon-title,
+.section .section-container .grid-slide-up:hover .icon-header { 
+  color: #990101;
+}
+.section .section-container .grid-slide-up:hover::before{  
+  background: #dc35463d;  
+} 
+
+h3.comments::after,
+.comment-respond .comment-reply-title::after,
+.post-head::after, 
+.related-blog.card .card-header::after,
+.sidebar .widget .card-header::after,
+.sidebar .widget.widget-iklan-link .card-header::after {  
+  background: #990101; 
+}
+    

@@ -10,10 +10,10 @@ if (isset($get_section_services['value'])) {
 
 <div id="<?php echo $item; ?>" class="section section-services" style=" background: #6c757d;">
     <div class="section-container" class="section section-services" style="background:url('<?php echo base_url('asset/img_novapage/images/kinerja.png' );?>');
- background-attachment: scroll; 
- background-size:90%;
- background-position:center;
- background-repeat:no-repeat;
+    background-attachment: scroll; 
+    background-size:90%;
+    background-position:center;
+    background-repeat:no-repeat;
 ">
         <div class="container">
             <div class="card py-4">

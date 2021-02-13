@@ -23,7 +23,7 @@ if(isset($get_section_hero['value'])){
                         </div> 
                             <div class="carousel-caption">
                                 <div class="container carousel-caption-body">
-                                    <h1 class="py-3"><?php echo $item['judul'];?></h1>
+                                    <h1 class=""><?php echo $item['judul'];?></h1>
                                     <div class="caption-content"> <?php echo strip_tags($item['deskripsi']);?></div>
                                     <div class="button-link"> 
                                         <?php 
@@ -34,8 +34,16 @@ if(isset($get_section_hero['value'])){
                                                 $url_link = $item['link_url'];
                                             }
                                         ?>
-                                        <a href="<?php echo $url_link;?>" class="btn btn-theme btn-read-more py-2">
-                                            <?php echo (empty(trim($item['link_label'])) ? 'Selengkapnya' : $item['link_label']);?>
+                                        <?php 
+                                            $url_link = '#';
+                                            if( $item['tipe_link'] =='url') {
+                                                echo  '<a href="url_link" class="btn btn-theme btn-read-more py-2" style="margin-top: 30%; margin-right: 80%;">'; 
+                                            } else {
+                                                
+                                            }
+                                        ?>
+                                            <!-- <a href="<?php echo $url_link;?>" class="btn btn-theme btn-read-more py-2" style="margin-top: 30%; margin-right: 80%;"> -->
+                                            <?php echo (empty(trim($item['link_label'])) ? '' : $item['link_label']);?>
                                         </a> 
                                     </div>
                                 </div>

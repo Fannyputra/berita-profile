@@ -1,5 +1,5 @@
 .header .navbar {
-  background: transparent;
+  background: #990101;
   transition: all 0.3s ease-in-out;
 }  
 
@@ -22,6 +22,12 @@
 .top-mt-120 {
   margin-top: 120px !important;
 }
+@media (max-width: 767px){
+  .hidden-xs {
+    display: none!important;
+  }
+}
+
 
 @media (max-width:520px){     
   .tagline-header{
@@ -98,6 +104,20 @@
 
 .header-top {
   margin-top: 0px;
+}
+
+.grd-thumb{
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  width: 100%;
+}
+.pull-right {
+  float: right!important;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
 }
 
 
@@ -239,7 +259,7 @@ label.image-text {
  }
  
 .btn {
-   color: #fff;
+   color: #333;
  }
 .btn-submit,
 .form .btn-submit {
@@ -972,6 +992,7 @@ iframe,
 .blog-list.card .card-body > ul li .post-meta  {
   color: grey; 
 }
+
  
 /*------------------------------------------------------------------------------------------
  * Polling
@@ -1996,7 +2017,7 @@ ul.accordion li .answer {
 }
 
 #carouselHero .carousel-caption {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color:transparent;
   padding-top: 40px;
   padding-bottom: 30px;  
   position: absolute;

@@ -61,7 +61,7 @@ if (!empty($section_berita['kategori'])) {
                     </div>
                 <?php } ?>
                 <div class="card-body">
-                    <div class="row justify-content-center">
+                    <div class="">
                         <?php if (!empty($get_personal)) { ?>
                             <?php
                             switch ((int) $section_team['layout']) {
@@ -86,39 +86,38 @@ if (!empty($section_berita['kategori'])) {
                             <div class="row">
                                 <section class="col-lg-12">
                                     <div class="row">
-                                        <?php foreach ($get_kutipan as $berita) { ?>
-                                            <div class="col-lg-3 mb-2">
-                                                <?php
-                                                $img_src = base_url() . 'asset/foto_berita/small_no-image.jpg';
-                                                if ($berita['gambar'] !== '') {
-                                                    $img_src = base_url() . 'asset/foto_berita/' . $berita['gambar'];
-                                                }
-                                                ?>
-                                                <div class="post-img-container" style="background:url('<?php echo $img_src; ?>');
-                                                                background-position:center;
-                                                                background-size:cover;
-                                                                background-repeat:no-repeat;
-                                                                height:200px;"></div>
-                                                <!-- <img width="100%" src="<?= base_url() . 'asset/foto_berita/berita1.jpg' ?>" alt=""> -->
-                                                <div class=" news-content">
-                                                    <strong class="news-title">
-                                                        <?php echo strip_tags(word_limiter($berita['judul'], 5)); ?>
-                                                    </strong>
-                                                    <small><?php echo strip_tags(word_limiter($berita['isi_berita'], 25)); ?></small>
-                                                </div>
-                                                <div class="news-meta ml-2">
-                                                    <i class="fa fa-calendar"></i> <?php echo tgl_indo($berita['tanggal']); ?> ,
-                                                    <i class="fa fa-user"></i> <?php echo $berita['nama_lengkap']; ?>,
-                                                    <a href="<?php echo base_url() . "kategori/detail/" . $berita['kategori_seo']; ?>">
-                                                        <b><?php echo $berita['nama_kategori']; ?></b>
-                                                    </a>
-                                                </div>
-                                                <div class="deskripsi read-more">
-                                                    <a href="<?php echo base_url($berita['judul_seo']); ?>" class="read-more">
-                                                        Selengkapnya
-                                                    </a>
+                                    <?php foreach ($get_kutipan as $berita) { ?>
+                                        <div class="col-lg-6 mt-4">
+                                            <div class="card mb-3" style="max-width: 540px;">
+                                                <div class="row g-0">
+                                                    <div class="col-lg-7">
+                                                        <a href="<?php echo base_url($berita['judul_seo']); ?>"><h5 class="card-title"><?php echo strip_tags(word_limiter($berita['judul'], 5)); ?></h5></a>
+                                                        <p class="card-text"><?php echo strip_tags(word_limiter($berita['isi_berita'], 25)); ?></p>
+                                                        <a href="<?php echo base_url($berita['judul_seo']); ?>" class="read-more">
+                                                            Selengkapnya
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-4">
+                                                        <div class="col-md-2">
+                                                            <?php
+                                                            $img_src = base_url() . 'asset/foto_berita/small_no-image.jpg';
+                                                            if ($berita['gambar'] !== '') {
+                                                                $img_src = base_url() . 'asset/foto_berita/' . $berita['gambar'];
+                                                            }
+                                                            ?>
+                                                           <img width="100%" class="grd-thumb" style="
+                                                             background:url('<?php echo $img_src; ?>');
+                                                            margin-right: -50px;
+                                                            padding: 100px;
+                                                            background-position:center;
+                                                            background-size:cover;
+                                                            background-repeat:no-repeat;
+                                                            height:100px;">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
+                                        </div>
                                         <?php } ?>
                                     </div>
                                 </section>

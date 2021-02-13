@@ -3,7 +3,7 @@
 		if( isset($widget_setting['judul']) ) {
 			if( !empty(trim($widget_setting['judul']))) {
 				?>	
-				<h5 class="card-header">	
+				<h5 class="">	
 					<?php echo $widget_setting['judul'];?>
 				</h5>
 				<?php

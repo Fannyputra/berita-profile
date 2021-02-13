@@ -1,9 +1,9 @@
-<div class="widget card mb-4 widget-polling"> 
+<div class="widget card mt-4 widget-polling"> 
 		<?php  
 			if( isset($widget_setting['judul']) ) {
 				if( !empty(trim($widget_setting['judul']))) {
 					?>					
-					<h5 class="card-header">
+					<h5 class="">
 						<?php echo $widget_setting['judul'];?>
 					</h5>
 					<?php 

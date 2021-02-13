@@ -37,7 +37,7 @@ if(isset($section_client['jumlah'])) {
             break;
     }
 ?> 
-    <div class="section-container <?php echo $skema_warna;?>">
+    <div class="section-container s <?php echo $skema_warna;?>">
         <div class="container">
             <div class="card py-4">
                 <?php if( !empty($section_client['judul'])) { ?>
